@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  cli:
+    build: .
+    container_name: ccip-nft-bridge-cli
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - .env
+    tty: true # Keep container running

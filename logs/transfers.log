@@ -1,0 +1,58 @@
+[2026-02-26T14:33:10.084Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:33:10.087Z] [ERROR] Argument validation failed | {"error":"Missing required arguments: tokenId, from, to, receiver\nUsage: npm run transfer -- --tokenId=<id> --from=<chain> --to=<chain> --receiver=<address>\nValid chains: avalanche-fuji, arbitrum-sepolia"}
+[2026-02-26T14:33:27.309Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:33:27.314Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T14:33:27.315Z] [ERROR] FUJI_RPC_URL is not set in environment
+[2026-02-26T14:35:43.368Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:35:43.386Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T14:35:43.415Z] [ERROR] FUJI_RPC_URL is not set in environment
+[2026-02-26T14:36:47.910Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:36:47.915Z] [ERROR] Argument validation failed | {"error":"Missing required arguments: tokenId, from, to, receiver\nUsage: npm run transfer -- --tokenId=<id> --from=<chain> --to=<chain> --receiver=<address>\nValid chains: avalanche-fuji, arbitrum-sepolia"}
+[2026-02-26T14:37:19.388Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:37:19.392Z] [ERROR] Argument validation failed | {"error":"Missing required arguments: tokenId, from, to, receiver\nUsage: npm run transfer -- --tokenId=<id> --from=<chain> --to=<chain> --receiver=<address>\nValid chains: avalanche-fuji, arbitrum-sepolia"}
+[2026-02-26T14:38:03.455Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:38:03.510Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T14:38:03.690Z] [ERROR] FUJI_RPC_URL is not set in environment
+[2026-02-26T14:54:57.130Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T14:54:57.150Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T14:54:57.180Z] [ERROR] FUJI_RPC_URL is not set in environment
+[2026-02-26T15:02:24.396Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T15:02:24.421Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T15:02:24.457Z] [ERROR] Failed to connect to RPC endpoint | {"rpcUrl":"https://api.avax-test.network/ext/bc/C/r","error":"invalid BytesLike value (argument=\"value\", value=\"0xyour_private_key_here\", code=INVALID_ARGUMENT, version=6.16.0)"}
+[2026-02-26T15:02:48.225Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T15:02:48.241Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T15:02:48.274Z] [ERROR] PRIVATE_KEY format is invalid. Expected 64 hex chars (with or without 0x).
+[2026-02-26T15:03:49.338Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T15:03:49.369Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000000"}
+[2026-02-26T15:03:50.933Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-26T15:03:50.949Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-26T15:03:51.534Z] [ERROR] Failed to verify NFT | {"tokenId":"1","error":"could not decode result data (value=\"0x\", info={ \"method\": \"ownerOf\", \"signature\": \"ownerOf(uint256)\" }, code=BAD_DATA, version=6.16.0)"}
+[2026-02-26T15:05:23.068Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T15:05:23.086Z] [ERROR] Argument validation failed | {"error":"Receiver cannot be zero address"}
+[2026-02-26T15:07:12.461Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-26T15:07:12.477Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-26T15:07:14.297Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-26T15:07:14.310Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-26T15:07:15.939Z] [ERROR] Source NFT address has no deployed contract code | {"chain":"avalanche-fuji","nftContractAddress":"0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"}
+[2026-02-27T09:05:20.237Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-27T09:05:20.248Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000001"}
+[2026-02-27T09:05:22.406Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-27T09:05:22.413Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-27T09:05:22.864Z] [ERROR] Source NFT address has no deployed contract code | {"chain":"avalanche-fuji","nftContractAddress":"0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"}
+[2026-02-27T09:07:59.072Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-27T09:07:59.085Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000001"}
+[2026-02-27T09:08:00.082Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-27T09:08:00.088Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-27T09:08:01.118Z] [ERROR] Source NFT address has no deployed contract code | {"chain":"avalanche-fuji","nftContractAddress":"0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"}
+[2026-02-27T09:10:21.642Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-27T09:10:21.728Z] [INFO] Transfer parameters parsed | {"tokenId":"99","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-27T09:10:22.613Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-27T09:10:22.631Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-27T09:10:23.243Z] [ERROR] Source NFT address has no deployed contract code | {"chain":"avalanche-fuji","nftContractAddress":"0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"}
+[2026-02-27T09:10:39.979Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-27T09:10:39.990Z] [ERROR] Argument validation failed | {"error":"Missing required arguments: tokenId, from, to, receiver\nUsage: npm run transfer -- --tokenId=<id> --from=<chain> --to=<chain> --receiver=<address>\nValid chains: avalanche-fuji, arbitrum-sepolia"}
+[2026-02-27T09:15:25.980Z] [INFO] === CCIP NFT Bridge CLI Started ===
+[2026-02-27T09:15:26.003Z] [INFO] Transfer parameters parsed | {"tokenId":"1","from":"avalanche-fuji","to":"arbitrum-sepolia","receiver":"0x0000000000000000000000000000000000000001"}
+[2026-02-27T09:15:27.534Z] [INFO] Connected to network | {"chain":"avalanche-fuji"}
+[2026-02-27T09:15:27.580Z] [INFO] Signer ready | {"address":"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"}
+[2026-02-27T09:15:28.603Z] [ERROR] Source NFT address has no deployed contract code | {"chain":"avalanche-fuji","nftContractAddress":"0x8A791620dd6260079BF849Dc5567aDC3F2FdC318"}

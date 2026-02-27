@@ -1,0 +1,25 @@
+{
+  "name": "ccip-nft-bridge-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for cross-chain NFT transfers using Chainlink CCIP",
+  "main": "cli/transfer.js",
+  "scripts": {
+    "transfer": "node cli/transfer.js",
+    "start": "node cli/transfer.js",
+    "test": "echo \"No JS tests\" && exit 0"
+  },
+  "keywords": [
+    "chainlink",
+    "ccip",
+    "nft",
+    "cross-chain",
+    "bridge"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "uuid": "^9.0.0"
+  }
+}

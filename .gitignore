@@ -1,0 +1,17 @@
+# Foundry artifacts
+out/
+cache/
+broadcast/
+
+# Foundry dependencies (restored via: forge install)
+lib/
+
+# Node.js
+node_modules/
+
+# Environment (never commit real .env)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
